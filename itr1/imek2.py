@@ -26,10 +26,10 @@ lastTr3pos = 3
 
 kernel = np.ones((7, 7), np.uint8)
 
-imgRoute = '.../imek/xs.jpg'
+imgRoute = './xs.jpg'
 
-save = True
-#save = False
+#save = True
+save = False
 
 
 ################
