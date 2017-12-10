@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="org.inversebit.imek_tf2.MainActivity">
+    <item
+        android:id="@+id/action_debug"
+        android:orderInCategory="100"
+        android:title="@string/action_debugmode"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_prefs"
+        android:orderInCategory="101"
+        android:title="@string/action_prefs"
+        app:showAsAction="never"/>
+</menu>

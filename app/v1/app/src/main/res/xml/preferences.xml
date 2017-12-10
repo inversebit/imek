@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.inversebit.imek_tf2.utils.preferences.IntEditTextPreference
+        android:key="@string/pref_imgpreproc_thresh_maxval"
+        android:title="@string/pref_imgpreproc_thresh_maxval_name"
+        android:defaultValue="@integer/pref_imgpreproc_thresh_maxval"
+        android:numeric="integer"/>
+    <org.inversebit.imek_tf2.utils.preferences.IntEditTextPreference
+        android:key="@string/pref_imgpreproc_thresh_blocksize"
+        android:title="@string/pref_imgpreproc_thresh_blocksize_name"
+        android:defaultValue="@integer/pref_imgpreproc_thresh_blocksize"
+        android:numeric="integer"/>
+    <org.inversebit.imek_tf2.utils.preferences.IntEditTextPreference
+        android:key="@string/pref_imgpreproc_thresh_c"
+        android:title="@string/pref_imgpreproc_thresh_c_name"
+        android:defaultValue="@integer/pref_imgpreproc_thresh_c"
+        android:numeric="integer"/>
+    <org.inversebit.imek_tf2.utils.preferences.IntEditTextPreference
+        android:key="@string/pref_imgpreproc_dilate_itrs"
+        android:title="@string/pref_imgpreproc_dilate_itrs_name"
+        android:defaultValue="@integer/pref_imgpreproc_dilate_itrs"
+        android:numeric="integer"/>
+    <org.inversebit.imek_tf2.utils.preferences.IntEditTextPreference
+        android:key="@string/pref_imgpreproc_erosion_itrs"
+        android:title="@string/pref_imgpreproc_erosion_itrs_name"
+        android:defaultValue="@integer/pref_imgpreproc_erosion_itrs"
+        android:numeric="integer"/>
+</PreferenceScreen>
