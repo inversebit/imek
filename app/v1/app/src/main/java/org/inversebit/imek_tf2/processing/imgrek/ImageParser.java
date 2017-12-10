@@ -157,7 +157,7 @@ public class ImageParser
 
 		try{
 			Imgcodecs.imwrite(filePath, img);
-			new File(filePath).deleteOnExit();
+			new File(filePath);
 		}catch(Exception ex){
 			Log.e(TAG, String.format("saveToFile: Cannot save to file: %s", filePath), ex);
 		}

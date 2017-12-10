@@ -35,7 +35,6 @@ public class ElementClassifier
 			tmpBitmap = BitmapFactory.decodeStream(istr);
 			bitmap = Bitmap.createScaledBitmap(
 					tmpBitmap, 224, 224, false);
-
 		} catch (Exception e) {
 			Log.e(TAG, "goBtn: PETO", e);
 		}

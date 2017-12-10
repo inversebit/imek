@@ -17,6 +17,7 @@ import android.view.View;
 
 import org.inversebit.imek_tf2.processing.imgrek.ImageParser;
 import org.inversebit.imek_tf2.processing.imgrek.ImageParsingTask;
+import org.inversebit.imek_tf2.utils.ImageCleanupTask;
 import org.inversebit.imek_tf2.utils.PhotoTaker;
 import org.inversebit.imek_tf2.utils.preferences.PrefsActivity;
 
@@ -61,6 +62,8 @@ public class MainActivity extends AppCompatActivity
 				}
 			}
 		});
+
+		new ImageCleanupTask(this).execute();
 	}
 
 	private void askForPermission(String perm, int callBackCode)

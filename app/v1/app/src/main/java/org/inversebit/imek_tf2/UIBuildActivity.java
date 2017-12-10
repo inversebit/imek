@@ -1,6 +1,7 @@
 package org.inversebit.imek_tf2;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
@@ -185,5 +186,13 @@ public class UIBuildActivity extends AppCompatActivity
 		}
 
 		return rg;
+	}
+
+	@Override
+	public void onBackPressed()
+	{
+		Intent intent = new Intent(this, MainActivity.class);
+		intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+		startActivity(intent);
 	}
 }
